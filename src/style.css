@@ -1,0 +1,41 @@
+body {
+    background-color: #729f9e;
+}
+.container {
+    background: #325e5e;
+    border-radius: 10px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 10%;
+    color: #ffffff;
+}
+h2 {
+    color: #ffffff;
+}
+input[id="pinArea"] {
+    text-align: center;
+    border: 2px;
+    border-color: rgb(66, 107,145);
+    border-radius: 6px;
+    height: 40px;
+    font-size: 24px;
+}
+button {
+    background: #458f8f;
+    border-radius: 6px;
+    border: 2px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
